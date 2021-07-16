@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #dddddd;
+    /* box-sizing: border-box; */
+}
+
+*{
+    box-sizing: border-box;
+    background-color: purple;
+}
+
+
+h2{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+  max-width: 1140px;
+  background-color: #ffffff;
+  /* height: 700px; */
+  height: auto;
+  /* margin: 20px auto; */
+  margin: 40px auto;
+  padding: 20px;
+}
+h1{
+    margin: 0;
+    font-size: 30px;
+}
+.clear{
+    clear: both;
+}
+
+nav{
+    float: left;
+    width: 100%;
+    background-color:#d6a7a7;
+    padding: 50px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+
+header{
+    float: left;
+    width: 100%;
+    background-color:#b2e033;
+    text-align: center;
+    padding: 130px 15px;
+    margin-bottom: 20px;
+   
+}
+
+.section1{
+    float:left;
+    width: 100%;
+    background-color:#dddddd; 
+    text-align: center;
+    padding:50px 10px;
+    margin-bottom:20px;
+   }
+   
+   .section1 .content{
+       float:left;
+       width: 100%;
+       margin-top:60px;
+   }
+   
+   .section1 .content .card{
+   width:25%;
+   float: left;
+   padding:0px 10px;
+   }
+   
+   .section1 .content .card .box{
+       background-color:gray;
+       font-size:30px;
+       color:#fff;
+       padding:60px 15px;
+   }
+
+
+   .section2{
+    float:left;
+    width: 100%;
+    background-color:#81b9cf; 
+    text-align: center;
+    padding:50px 10px;
+    
+   }
+   
+   .section2 .content{
+    float:left;
+    width: 100%;
+    margin-top:60px;
+    /* margin-bottom: 20px; */
+   }
+   .section2 .content .left{
+        width: 50%;
+        float: left;
+        padding: 0 10px;
+   }
+
+   .section2 .content .left .card{
+       font-size: 30px;
+       padding: 200px 15px;
+       color: #fff;
+       background-color: gray
+       
+   }
+   .section2 .content .right{
+        width: 50%;
+        float: left;
+        padding: 0 10px;
+   }
+   .section2 .content .right .card{
+    font-size: 30px;
+    padding: 48px 15px;
+    color: #fff;
+    background-color: gray;
+    margin-bottom: 20px;
+    
+   }
+
+   footer{
+    float:left;
+    width: 100%;
+    background-color:#e26868; 
+    text-align: center;
+    padding:50px 10px;
+    margin-top: 20px;
+    /* margin-bottom:20px; */
+
+    
+
+
+   }
+
+   
